@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Readlet: A Spritz Bookmarklet</title>
+		<style>
+			#bookmarklet {
+				display: inline-block;
+				margin-right: 1em;
+				border: 1px solid #00F;
+				background-color: #FAFAFA;
+				padding: 5px;
+				text-transform: uppercase;
+				font-family: sans-serif;
+				font-weight: bold;
+				font-size: 150%;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div style="max-width: 600px; margin: 0 auto; padding: 20px;">
+			<h1>Readlet</h1>
+
+			<p>Drag the big link below into your bookmark toolbar:</p>
+
+			<p style="margin: 2em">
+				<a id="bookmarklet" href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://occams.info/readlet/index.js';})();">Readlet</a>
+				<small>&larr; drag him into your bookmarks</small>
+			</p>
+
+			<p>Then go visit your favorite newspaper or blog and when you have an article up, click Readlet in your bookmark toolbar to start it.
+			After Spritz loads, you can also double click anywhere in the page to start reading from that point.</p>
+
+			<p>You will need to create a Spritz account to use this, unfortunately.</p>
+
+			<hr style="margin: 2em 0">
+
+			<p>A bookmarklet for <a href="http://www.spritzinc.com/">Spritz</a>.</p>
+
+		</div>
+	</body>
+</html>
+
